@@ -19,10 +19,11 @@ body {
 /* Text Styles */
 .text {
     position: absolute;
-    top: 20%; /* Positioned above the heart */
+    top: 10%; /* Positioned at the top */
     left: 50%;
     transform: translateX(-50%);
     color: #000000; /* Black text */
+    z-index: 2; /* Ensure text is above the heart */
     animation: fadeIn 2s ease-in-out;
 }
 
@@ -36,10 +37,11 @@ body {
     height: 200px;
     background-color: #ff6f61;
     position: absolute;
-    top: 50%;
+    top: 50%; /* Center vertically */
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
     animation: beat 1.5s infinite;
+    z-index: 1; /* Ensure heart is below the text */
 }
 
 .heart::before, .heart::after {
