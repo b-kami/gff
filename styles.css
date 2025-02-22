@@ -22,7 +22,7 @@ body {
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
-    color: black;
+    color: #000000;
     animation: fadeIn 2s ease-in-out;
 }
 
