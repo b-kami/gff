@@ -19,10 +19,10 @@ body {
 /* Text Styles */
 .text {
     position: absolute;
-    top: 10%;
+    top: 20%; /* Positioned above the heart */
     left: 50%;
     transform: translateX(-50%);
-    color: #000000;
+    color: #000000; /* Black text */
     animation: fadeIn 2s ease-in-out;
 }
 
